@@ -2,10 +2,10 @@
 #include <string.h>
 using namespace std;
 
-typedef struct Person {
+struct Person {
     char nome[100];
     int idade;
-} Person;
+};
 
 int main() {
     Person p[2];
