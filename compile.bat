@@ -1,0 +1,1 @@
+g++ -O3 -o main.exe main.cpp && main.exe
