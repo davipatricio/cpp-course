@@ -7,21 +7,23 @@
 */
 
 #include <iostream>
-#include <sstream>
-#include <Windows.h>
 
 using namespace std;
 
+double getFatorial(int n) {
+    int fatorial = 1;
+    for (int i = 1; i <= n; i++)
+        fatorial *= i;
+    return fatorial;
+}
+
 int main() {
-    int num, fatorial = 1;
+    int num = 0;
 
     cout << "Type a number: ";
     cin >> num;
-
-    for (int i = 1; i <= num; i++)
-        fatorial *= i;
     
-    cout << "The factorial of " << num << " is " << fatorial << endl;
+    cout << "The factorial of " << num << " is " << getFatorial(num) << endl;
 
     return 0;
 }
