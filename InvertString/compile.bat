@@ -1,0 +1,1 @@
+g++ -o StringInverter.exe -O3 intertstring.cpp

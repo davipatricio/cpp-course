@@ -1,0 +1,1 @@
+g++ -o Fatorial.exe -O3 fatorial.cpp

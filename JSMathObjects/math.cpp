@@ -1,7 +1,7 @@
 #include <iostream> // srand
 #include <time.h> // time
 #include <math.h> // std::<math functions>
-#include "nodejs-math.h"
+#include "math.h"
 
 // 'Math::random()' returns a random number between a int and another int
 int Math::randomBetween(int min, int max)

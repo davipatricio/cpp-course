@@ -1,0 +1,1 @@
+g++ -o EvenChecker.exe -O3 isEven.cpp

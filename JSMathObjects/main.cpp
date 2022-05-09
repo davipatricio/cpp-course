@@ -1,11 +1,10 @@
 #include <iostream> // printf
-#include <conio.h> // initscr, printw, getch, endwin
-#include "nodejs-math.h" // Math functions
+#include "math.h" // Math functions
 
 void AskToExit()
 {
     printf("Press any key to exit...");
-    getch();
+    getchar();
 }
 
 int main()
