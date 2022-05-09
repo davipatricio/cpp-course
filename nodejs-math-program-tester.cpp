@@ -1,5 +1,12 @@
-#include <iostream>
-#include "nodejs-math.h"
+#include <iostream> // printf
+#include <conio.h> // initscr, printw, getch, endwin
+#include "nodejs-math.h" // Math functions
+
+void AskToExit()
+{
+    printf("Press any key to exit...");
+    getch();
+}
 
 int main()
 {
@@ -26,6 +33,8 @@ int main()
 
     float logNumber = Math::log(10);
     printf("Log of 10: %f\n", logNumber);
-    
+
+    AskToExit();
+
     return 0;
 }

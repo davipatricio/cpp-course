@@ -1,5 +1,6 @@
-#include <iostream>
-#include <math.h>
+#include <iostream> // srand
+#include <time.h> // time
+#include <math.h> // std::<math functions>
 #include "nodejs-math.h"
 
 // 'Math::random()' returns a random number between a int and another int
